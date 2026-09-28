@@ -1,0 +1,183 @@
+object Form1: TForm1
+  Left = 773
+  Height = 288
+  Top = 170
+  Width = 307
+  ActiveControl = valor
+  Caption = 'Form1'
+  ClientHeight = 288
+  ClientWidth = 307
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '3.0.0.3'
+  object Label1: TLabel
+    Left = 72
+    Height = 23
+    Top = 16
+    Width = 165
+    Caption = 'APLICACION U1-POO'
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = Label1Click
+  end
+  object valor: TEdit
+    Left = 59
+    Height = 26
+    Top = 56
+    Width = 80
+    TabOrder = 0
+    TextHint = 'valor'
+  end
+  object parametro1: TEdit
+    Left = 59
+    Height = 26
+    Top = 88
+    Width = 80
+    TabOrder = 1
+    TextHint = 'parametro1'
+  end
+  object parametro2: TEdit
+    Left = 59
+    Height = 26
+    Top = 120
+    Width = 80
+    TabOrder = 2
+    TextHint = 'parametro2'
+  end
+  object resultado: TEdit
+    Left = 59
+    Height = 26
+    Top = 192
+    Width = 163
+    TabOrder = 3
+    TextHint = 'resultado'
+  end
+  object Crear: TButton
+    Left = 59
+    Height = 25
+    Top = 152
+    Width = 75
+    Caption = 'Crear'
+    TabOrder = 4
+    OnClick = CrearClick
+  end
+  object Ejecutar: TButton
+    Left = 147
+    Height = 25
+    Top = 152
+    Width = 75
+    Caption = 'Ejecutar'
+    TabOrder = 5
+    OnClick = EjecutarClick
+  end
+  object Salir: TButton
+    Left = 104
+    Height = 25
+    Top = 224
+    Width = 75
+    Caption = 'Salir'
+    TabOrder = 6
+    OnClick = SalirClick
+  end
+  object Objeto: TLabel
+    Left = 170
+    Height = 1
+    Top = 91
+    Width = 1
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object MainMenu1: TMainMenu
+    Left = 326
+    object Op_con_digitos: TMenuItem
+      Caption = 'Op con digitos'
+      object Insertar: TMenuItem
+        Caption = 'Insertar'
+        OnClick = InsertarClick
+      end
+      object Obtener: TMenuItem
+        Caption = 'Obtener'
+        OnClick = ObtenerClick
+      end
+      object Eliminar: TMenuItem
+        Caption = 'Eliminar'
+        OnClick = EliminarClick
+      end
+      object Cantidad: TMenuItem
+        Caption = 'Cantidad'
+        OnClick = CantidadClick
+      end
+      object Sumar: TMenuItem
+        Caption = 'Sumar'
+        OnClick = SumarClick
+      end
+      object Pares: TMenuItem
+        Caption = 'Pares'
+        OnClick = ParesClick
+      end
+      object Impares: TMenuItem
+        Caption = 'Impares'
+        OnClick = ImparesClick
+      end
+      object Primos: TMenuItem
+        Caption = 'Primos'
+        OnClick = PrimosClick
+      end
+      object Mayor: TMenuItem
+        Caption = 'Mayor'
+        OnClick = MayorClick
+      end
+      object Menor: TMenuItem
+        Caption = 'Menor'
+        OnClick = MenorClick
+      end
+    end
+    object Op_con_enteros: TMenuItem
+      Caption = 'Op con enteros'
+      object Invertir: TMenuItem
+        Caption = 'Invertir'
+        OnClick = InvertirClick
+      end
+      object Capicua: TMenuItem
+        Caption = 'Capicua'
+        OnClick = CapicuaClick
+      end
+      object Par: TMenuItem
+        Caption = 'Par'
+        OnClick = ParClick
+      end
+      object Impar: TMenuItem
+        Caption = 'Impar'
+        OnClick = ImparClick
+      end
+      object Primo: TMenuItem
+        Caption = 'Primo'
+        OnClick = PrimoClick
+      end
+      object Binario: TMenuItem
+        Caption = 'Conv. a binario'
+        OnClick = BinarioClick
+      end
+      object Octal: TMenuItem
+        Caption = 'Conv. a octal'
+        OnClick = OctalClick
+      end
+      object Hexadecimal: TMenuItem
+        Caption = 'Cov. a hexadecimal'
+        OnClick = HexadecimalClick
+      end
+      object BaseN: TMenuItem
+        Caption = 'Conv. a base n'
+        OnClick = BaseNClick
+      end
+      object Romano: TMenuItem
+        Caption = 'Conv. a romano'
+        OnClick = RomanoClick
+      end
+    end
+  end
+end

@@ -1,0 +1,12 @@
+# Archivos compilados e intermedios de Lazarus / Free Pascal
+*.o
+*.ppu
+*.compiled
+*.exe
+*.o-g
+backup/
+lib/
+*.res
+*.lps
+# Ignorar el ejecutable compilado (cambia 'project1' si tu ejecutable se llama distinto)
+project1
